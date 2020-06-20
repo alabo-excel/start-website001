@@ -14,13 +14,13 @@ header {
   padding: 20px;
   margin-top: 10px;
 }
-header h4{
-    padding-left: 30px;
-    padding-top: 10px;
+header h4 {
+  padding-left: 30px;
+  padding-top: 10px;
 }
-hr{
-    width: 80%;
-    margin-left: 10%;
+hr {
+  width: 80%;
+  margin-left: 10%;
 }
 form {
   text-align: center;
@@ -30,27 +30,27 @@ img {
   width: 137%;
   padding-right: -50px;
 }
-input{
-    width: 70%;
-    padding: 13px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
+input {
+  width: 70%;
+  padding: 13px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
-.bg-primary{
-    color: white;
-    border: none;
+.bg-primary {
+  color: white;
+  border: none;
 }
-@media (max-width: 500px){
-    img{
-        visibility: hidden;
-    }
+@media (max-width: 500px) {
+  img {
+    display: none;
+  }
 }
-@media (max-width: 900px){
-    form{
-        text-align: center;
-        padding-left: 22%;
-    }
-    input{
-        width: 100%;
-    }
+@media (max-width: 900px) {
+  form {
+    text-align: center;
+    padding-left: 22%;
+  }
+  input {
+    width: 100%;
+  }
 }

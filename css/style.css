@@ -25,6 +25,7 @@ ul li {
   padding: 10px;
   padding-left: 25px;
   color: rgb(31, 75, 196);
+  border-radius: 5px;
 
   padding-right: 25px;
 }

@@ -41,29 +41,54 @@ img {
   text-align: center;
   padding-bottom: 50px;
 }
-#large{
-    width: 94%;
+#large {
+  width: 94%;
 }
 .card h4 {
   margin: 10px;
   margin-bottom: 25px;
 }
-@media(max-width: 500px){
-    input{
-        width: 100%;
-        margin-top: 10px;
-        margin-right: 50px;
-    }
+@media (max-width: 500px) {
+  input {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .card{
+    order: 1;
+    width: 70%;
+    display: flex;
     
+  }
+  .form{
+    order: 2;
+    text-align: center;
+  }
 }
-@media (max-width: 900px){
-    #large{
-        width: 100%;
-    }
-    .card img{
-        margin: auto;
-    }
-    .card{
-        margin: auto;
-    }
+@media (max-width: 900px) {
+  input {
+    width: 95%;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  #large {
+    width: 95%;
+  }
+  .card img {
+    margin: auto;
+    width: 20%;
+  }
+  .card {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 80%;
+
+    
+  }
+  .card h4{
+    font-size: 20px;
+  }
+  form h3{
+    font-size: 20px;
+  }
 }
