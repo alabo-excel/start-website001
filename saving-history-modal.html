@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/saving-history-modal.css" />
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header class="">
+      <div class="navbar">
+        <i class="fa fa-bars fa-2x"></i>
+        <h4>CityCore</h4>
+        <div id="header" class="navbar">
+          <i class="fa fa-envelope fs-2x"></i>
+          <span
+            >Michael
+            <p>michael@citycore.ng</p>
+          </span>
+          <img src="./img/hero.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="side-bar">
+        <h5>Account</h5>
+        <ul>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-dashboard fa-2x"></i>
+            Dashboard
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-credit-card fa-2x"></i
+            >My Wallet
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-money fa-2x"></i> Loans
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-user-plus fa-2x"></i
+            >Refer Friends
+          </li>
+          <li>
+            <i
+              style="padding-right: 15px;"
+              class="fa fa-user-circle-o fa-2x"
+            ></i
+            >My Profile
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-mobile fa-2x"></i
+            >Airtime / Data
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-dashboard fa-2x"></i
+            >Send Money
+          </li>
+        </ul>
+        <hr />
+        <h5>Actions</h5>
+        <ul>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-info-circle fa-2x"></i
+            >Help & Support
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-bell-o fa-2x"></i
+            >Notifications
+          </li>
+        </ul>
+      </div>
+      <section>
+        <div class="row dashboard">
+          <div class="col-lg-8 col-md-4 col-sm-10">
+            <h4>My Savings Plan</h4>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-10">
+            <input
+              type="submit"
+              value="Create Plan"
+              class="text-white bg-primary"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-10">
+            <input
+              type="submit"
+              value="Savings History"
+              class="text-primary bg-skyblue"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row" id="row">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <p>My Savings One <i class="fa fa-settings fa-1x"></i></p>
+            <i class="fa fa-credit-card fa-2x"></i>
+            <h3>$245,000</h3>
+            <ul>
+              <li>Periodic Saving Plan</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <p>My Savings Two <i class="fa fa-settings fa-1x"></i></p>
+            <i class="fa fa-credit-card fa-2x"></i>
+            <h3>$245,000</h3>
+            <ul>
+              <li>Periodic Saving Plan</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <p>My Savings Three <i class="fa fa-settings fa-1x"></i></p>
+            <i class="fa fa-credit-card fa-2x"></i>
+            <h3>$245,000</h3>
+            <ul>
+              <li>Periodic Saving Plan</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row dashboard">
+          <h4>Savings History</h4>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-11">
+          <table class="table bg-white">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Saving Plan</th>
+                <th scope="col">Saving Type</th>
+                <th scope="col">Next Due Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">22/12/2019</th>
+                <td>#35,00</td>
+                <td>My Savings One</td>
+                <td>Periodic Savings Plan</td>
+                <td>22/01/2019</td>
+              </tr>
+              <tr>
+                <th scope="row">22/12/2019</th>
+                <td>#35,00</td>
+                <td>My Savings One</td>
+                <td>Periodic Savings Plan</td>
+                <td>22/01/2019</td>
+              </tr>
+              <tr>
+                <th scope="row">22/12/2019</th>
+                <td>#35,00</td>
+                <td>My Savings One</td>
+                <td>Periodic Savings Plan</td>
+                <td>22/01/2019</td>
+              </tr>
+              <tr>
+                <th scope="row">22/12/2019</th>
+                <td>#35,00</td>
+                <td>My Savings One</td>
+                <td>Periodic Savings Plan</td>
+                <td>22/01/2019</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section >
+        <!-- Modal -->
+        <div
+          class="modal fade row"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content ">
+              <div class="modal-header ml-5">
+                
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  New Savings Plan Created Successfully
+                </h5><br><br> 
+                <i class="fa fa-credit-card fa-4x"></i><br><br>
+                Your new savings plan has been created.
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  data-dismiss="modal"
+                  class="btn btn-primary m-auto pl-5 pr-5"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br />
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

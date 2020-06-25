@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/recharge-successful.css" />
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header class="">
+      <div class="navbar">
+        <i class="fa fa-bars fa-2x"></i>
+        <h4>CityCore</h4>
+        <div id="header" class="navbar">
+          <i class="fa fa-envelope fs-2x"></i>
+          <span
+            >Michael
+            <p>michael@citycore.ng</p>
+          </span>
+          <img
+            src="./img/hero.jpg"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="side-bar">
+        <h5>Account</h5>
+        <ul>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-dashboard fa-2x"></i>
+            Dashboard
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-credit-card fa-2x"></i
+            >My Wallet
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-money fa-2x"></i> Loans
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-user-plus fa-2x"></i
+            >Refer Friends
+          </li>
+          <li>
+            <i
+              style="padding-right: 15px;"
+              class="fa fa-user-circle-o fa-2x"
+            ></i
+            >My Profile
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-mobile fa-2x"></i
+            >Airtime / Data
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-dashboard fa-2x"></i
+            >Send Money
+          </li>
+        </ul>
+        <hr />
+        <h5>Actions</h5>
+        <ul>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-info-circle fa-2x"></i
+            >Help & Support
+          </li>
+          <li>
+            <i style="padding-right: 15px;" class="fa fa-bell-o fa-2x"></i
+            >Notifications
+          </li>
+        </ul>
+      </div>
+
+      <section>
+        <!-- Modal -->
+        <div
+          class="modal fade "
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header ml-5">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Recharge Was Successful
+                </h5>
+                <br />
+                You just recharged 0813475481 with #100
+                
+               <br> <br><i class="fa fa-credit-card fa-4x"></i><br /><br />
+
+               <p>
+                Redirecting you to your dashboard <br />
+                3s
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br />
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

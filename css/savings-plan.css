@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(230, 236, 238);
+  }
+  .navbar img {
+    width: 30px;
+    border-radius: 250px;
+    margin-top: -10px;
+  }
+  .fa-bars {
+    margin-right: -69%;
+  }
+  .fa-envelope {
+    margin-top: -10%;
+    color: skyblue;
+  }
+  header {
+      width: 105%;
+    color: white;
+    background-color: rgb(60, 111, 253);
+  }
+  #header {
+    float: right;
+    margin-right: 10%;
+  }
+  #header span p {
+    font-: 10px;
+    color: sizeblack;
+  }
+  #header span {
+    color: skyblue;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  header h4{
+      margin-left: 10%;
+  }
+  .container {
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
+  }
+  .btn{
+      width: 130px;
+  }
+  main{
+      text-align: center;
+      margin-top: 55px;
+  }
+  .row div{
+      background-color: white;
+      margin-top: 30px;
+      padding: 30px;
+      margin-right: 50px;
+  }
+  .first{
+      margin-left: 10%;
+  }
+  .btn{
+      padding: 15px;
+      border: none;
+  }
+  .row div{
+      margin-right: 50px;
+      margin-left: 70px;
+  }
+  @media (max-width: 500px){
+      .row div{
+          margin: 30px;
+          margin-left: 40px;
+      }
+      header h4{
+        display: none;       
+      }
+      .fa-envelope{
+          margin-right: -20px;
+      }
+      
+  }
+
+  @media (max-width: 900px){
+      header h4{
+          margin-left: 50%;
+      }
+  }
